@@ -1,0 +1,14 @@
+{
+  "name"         : "shippingForecast",
+  "version"      : "1.0.0",
+  "description"  : "Get the shipping forecast.",
+  "main"         : "index.js",
+  "author"       : "gregdskb",
+  "private"      : "true",
+  "dependencies" : {
+    "alexa-sdk"       : "latest",
+    "request"         : "latest",
+    "request-promise" : "latest",
+    "cheerio"         : "latest"
+  }
+}
