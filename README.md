@@ -57,12 +57,12 @@ a) Change to the lambda directory.
 
 b) Create a zip file with the name of your Lambda function.
 
-`zip -qru ../myLambdaFunction.zip *`
+`zip -qru ../<myLambdaFunction>.zip *`
 
 c) Upload the zip file to your S3 share (an authorised user is required).
 
-`aws s3 cp --profile <myDeploymentUser> myLambdaFunction.zip s3://<myPath>/`
+`aws s3 cp --profile <myDeploymentUser> <myLambdaFunction>.zip s3://<myPath>/`
 
 d) To manually update, paste the S3 URL into the Lambda function and save.
 
-`https://s3-<myLocation>.amazonaws.com>/<myPath>/myLambdaFunction.zip`
+`https://s3-<myLocation>.amazonaws.com/<myPath>/<myLambdaFunction>.zip`
