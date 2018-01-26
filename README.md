@@ -11,7 +11,7 @@ If you want to try this out you'll need a few bits and pieces.
 * Access to an Alexa device (e.g. Echo or simulator).
 * An AWS account.
   * An EC2 instance.
-    * A NodeJS and SAM local enabled development environment.
+    * A [NodeJS](https://github.com/gregdskb/shippingForecast/wiki/NodeJS) and [SAM Local](https://github.com/gregdskb/shippingForecast/wiki/SAM-Local) enabled development environment.
   * An S3 share.
   * An AWS Lambda function.
 * An Amazon Developer account.
