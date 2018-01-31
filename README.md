@@ -66,3 +66,5 @@ c) Upload the zip file to your S3 share (an authorised user is required).
 d) To manually update, paste the S3 URL into the Lambda function and save.
 
 `https://s3-<myLocation>.amazonaws.com/<myPath>/<myLambdaFunction>.zip`
+
+e) Test line.
